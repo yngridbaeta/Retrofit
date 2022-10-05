@@ -18,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Cadastro do Pet"
-                android:textColor="#0359A5"
+                android:textColor="#093963"
                 android:textAlignment="center"
                 android:textSize="25dp"
                 android:textStyle="bold"/>
@@ -129,6 +129,48 @@
                 android:textStyle="bold"
                 android:text="Limpar"
                 android:backgroundTint="#1C0606"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Retorno em Json"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvJson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="#0CD1E3"
+                android:focusable="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Retorno em Objeto Java"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvObjeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

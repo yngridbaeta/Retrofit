@@ -29,6 +29,6 @@ public interface Service {
     Call<Dog>alterarDog(@Path("id") String id, @Body Dog dog);
 
     //deletar um animal
-    @DELETE("/api/dog/delete/{id}")
+    @GET("/api/dog/delete/{id}")
     Call<Dog>excluirDog(@Path("id") String id);
 }

@@ -50,10 +50,10 @@
     });
 
     app.post('/api/dog/post', (req, res) => {
-        const id = req.body.id;
-        const nome = req.body.nome;
-        const raca = req.body.raca;        
-        const image = req.body.image;
+        let id = req.body.id;
+        let nome = req.body.nome;
+        let raca = req.body.raca;        
+        let image = req.body.image;
         return res.json({id,nome,raca,image});
     });
 
